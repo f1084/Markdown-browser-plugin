@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Markdown editor",
+  "description": "This extension was a Markdown editor",
+  "version": "1.0",
+  "background":{
+    "scripts":["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Markdown editor"
+  },
+  "icons": {
+    "16": "icon.png",
+    "128": "icon.png"
+  }
+}
